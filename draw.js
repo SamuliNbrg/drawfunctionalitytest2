@@ -16,12 +16,20 @@ window.onload = function() {
   context.lineJoin = 'butt';
   context.lineWidth = 7;
 
+
   function line(fromx,fromy, tox,toy) {
     context.beginPath();
     context.moveTo(fromx, fromy);
     context.lineTo(tox, toy);
     context.stroke();
     context.closePath();
+  }
+
+  canvas.ontouchstart = function(event){                   
+    event.preventDefault();                 
+    
+    lastx = event.touches[0].pageX;
+    lasty = event.touches[0].pageY - canvastop;
   }
 
   canvas.ontouchmove = function(event){                   
