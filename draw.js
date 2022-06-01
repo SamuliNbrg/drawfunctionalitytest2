@@ -16,7 +16,6 @@ window.onload = function() {
   context.lineJoin = 'butt';
   context.lineWidth = 7;
 
-
   function line(fromx,fromy, tox,toy) {
     context.beginPath();
     context.moveTo(fromx, fromy);
