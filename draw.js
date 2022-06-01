@@ -13,7 +13,7 @@ window.onload = function() {
 
   context.strokeStyle = "#000000";
   context.lineCap = 'round';
-  context.lineJoin = 'round';
+  //context.lineJoin = 'round';
   context.lineWidth = 5;
 
   function clear() {
