@@ -14,7 +14,7 @@ window.onload = function() {
   context.strokeStyle = "#000000";
   context.lineCap = 'round';
   //context.lineJoin = 'round';
-  context.lineWidth = 5;
+  context.lineWidth = 7;
 
   function clear() {
     context.fillStyle = "#ffffff";
