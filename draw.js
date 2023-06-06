@@ -23,7 +23,7 @@ window.onload = function() {
 
   // draws a grid
   function redraw() {
-	context.strokeStyle = "#f2f2f2";
+	context.strokeStyle = "#f2e8c7";
 	context.lineWidth = window.innerWidth/80;
 	
 	//rectangle around the canvas
