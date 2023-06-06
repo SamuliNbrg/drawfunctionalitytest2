@@ -27,7 +27,7 @@ window.onload = function() {
 	context.lineWidth = window.innerWidth/80;
 	
 	//rectangle around the canvas
-	context.strokeRect(2, 2, window.innerWidth-4, window.innerHeight-4);
+	// context.strokeRect(2, 2, window.innerWidth-4, window.innerHeight-4);
 	
 	//first diagonal
     context.beginPath(); 
